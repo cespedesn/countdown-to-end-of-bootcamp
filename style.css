@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+.coding-bootcamp-countdown{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around; /*can use space-between if you want text to touch end of h2*/
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.day, .hour, .minute, .second {
+    font-size: 3rem;
+}
+.finishline{
+    height: 50vh;
+}
