@@ -1,5 +1,5 @@
 const countdown = () => {
-    const countdownDate = new Date("December 9, 2022 00:00:00").getTime;
+    const countdownDate = new Date("December 9, 2022 00:00:00").getTime();
     const now = new Date().getTime();
     const difference = countdownDate - now;
 
@@ -21,11 +21,11 @@ const countdown = () => {
     document.getElementById('hours').innerText = parseInt(finalHour);
     document.getElementById('seconds').innerText = parseInt(finalSecond);
 
-    console.log(difference);
+    
 };
 
 
 
-/*setInterval(countdown, 1000);*/
-countdown();
+setInterval(countdown, 1000);
+
     
