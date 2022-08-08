@@ -24,8 +24,47 @@ const countdown = () => {
     
 };
 
-
-
 setInterval(countdown, 1000);
 
-    
+function changeBackground1() {
+    const text = document.getElementById("days").style
+    text.backgroundColor= "whitesmoke" 
+}
+
+function backToNormal1() {
+    const text = document.getElementById("days").style
+    text.backgroundColor= "" 
+}
+
+function changeBackground2() {
+    const text = document.getElementById("hours").style
+    text.backgroundColor= "whitesmoke" 
+}
+
+
+function backToNormal2() {
+    const text = document.getElementById("hours").style
+    text.backgroundColor= "" 
+}
+
+function changeBackground3() {
+    const text = document.getElementById("minutes").style
+    text.backgroundColor= "whitesmoke" 
+}
+
+function backToNormal3() {
+    const text = document.getElementById("minutes").style
+    text.backgroundColor= "" 
+}
+
+function changeBackground4() {
+    const text = document.getElementById("seconds").style
+    text.backgroundColor= "whitesmoke" 
+}
+
+
+function backToNormal4() {
+    const text = document.getElementById("seconds").style
+    text.backgroundColor= "" 
+}
+
